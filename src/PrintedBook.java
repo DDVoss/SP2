@@ -13,6 +13,6 @@ public class PrintedBook extends Title {
 
     @Override
     public double calculateLiteraturePoints() {
-        return 0;
+        return this.pages * Publisher.getPrintedBookRate(this.literatureType)  * this.copies;
     }
 }

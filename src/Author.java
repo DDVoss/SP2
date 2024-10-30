@@ -15,6 +15,7 @@ public class Author {
 
     public float calculateTotalPay()    {
         float total = 0;
+        total += this.titles.size();
         return total;
     }
 }

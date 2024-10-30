@@ -15,6 +15,6 @@ public class AudioBook extends Title  {
 
     @Override
     public double calculateLiteraturePoints() {
-        return 0;
+        return this.durationInMinutes * Publisher.getAudioBookRates(this.literatureType) * this.copies;
     }
 }
