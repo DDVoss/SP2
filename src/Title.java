@@ -15,6 +15,7 @@ public abstract class Title {
 
 
     public double calculateRoyalty() {
+        rate = 0.067574;
         return calculateLiteraturePoints() * rate;
     }
 

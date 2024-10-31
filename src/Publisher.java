@@ -7,7 +7,7 @@ public class Publisher
     static HashMap<String, Double> printedBookRates = new HashMap<String, Double>();
     static HashMap<String, Double> audioBookRates = new HashMap<String, Double>();
 
-    // initialiseRates are called in main to instansiate the HashMap
+    // initialiseRates are called in main to instantiate the HashMap
     public static void initializeRates() {
 
         // initialize printedBookRates
@@ -19,6 +19,10 @@ public class Publisher
 
         // initialize audioBookRates
         audioBookRates.put("BI", 1.5);
+        audioBookRates.put("TE", 1.5);
+        audioBookRates.put("LYRIK", 3.0);
+        audioBookRates.put("SKØN", 0.85);
+        audioBookRates.put("FAG", 0.5);
 
     }
 
